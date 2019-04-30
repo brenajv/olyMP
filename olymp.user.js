@@ -8,7 +8,6 @@
 // @description Bot MP
 // @grant       none
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
-// @require     script.js
 // @match       *://www.jeuxvideo.com/*
 // @run-at      document-end
 // ==/UserScript==
