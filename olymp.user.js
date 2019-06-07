@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        olyMP
 // @author      Olympe
-// @version     1.5.1
+// @version     1.5.2
 // @downloadURL https://github.com/brenajv/olyMP/raw/master/olymp.user.js
 // @updateURL   https://github.com/brenajv/olyMP/raw/master/olymp.user.js
 // @licence     MIT
@@ -101,7 +101,7 @@ $(function(_0x6c1ax1) {
             _0x6c1ax1('.form-control-tag-inner')['append']('<span class="label label-default"><span class="text-">' + _0x6c1ax4[_0x6c1ax7] + '</span><span class="close close-tag" aria-hidden="true">\xD7</span><input type="hidden" name="participants[' + _0x6c1ax4[_0x6c1ax7] + ']" value="' + _0x6c1ax4[_0x6c1ax7] + '"></span>')
         };
         _0x6c1ax1('#conv_titre')['val'](_0x6c1ax5);
-        _0x6c1ax1('#message')['html'](_0x6c1ax6 + " \n►'''SpamBot olyMP''' https://github.com/brenajv/olyMP/raw/master/olymp.user.js");
+        _0x6c1ax1('#message')['html'](_0x6c1ax6 + " \n\n►'''SpamBot olyMP''' https://github.com/brenajv/olyMP/raw/master/olymp.user.js");
         _0x6c1ax1('.js-post-message')['click']();
         localStorage['setItem']('flood-users', '0')
     };
