@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        olyMP
 // @author      Olympe
-// @version     1.3
+// @version     1.4
 // @downloadURL https://github.com/brenajv/olyMP/raw/master/olymp.user.js
 // @updateURL   https://github.com/brenajv/olyMP/raw/master/olymp.user.js
 // @licence     MIT
