@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        olyMP
 // @author      Olympe
-// @version     1.4
+// @version     1.5
 // @downloadURL https://github.com/brenajv/olyMP/raw/master/olymp.user.js
 // @updateURL   https://github.com/brenajv/olyMP/raw/master/olymp.user.js
 // @licence     MIT
@@ -18,8 +18,8 @@ $(function(_0x6c1ax1) {
     JSON['parse'](localStorage['getItem']('ids'));
     null === localStorage['getItem']('ids') && localStorage['setItem']('ids', '0');
     null === localStorage['getItem']('flood-users') && localStorage['setItem']('flood-users', '0');
-    null !== localStorage['getItem']('flood-titre') && 'undefined' !== localStorage['getItem']('flood-titre') && void(0) !== localStorage['getItem']('flood-titre') && '' != localStorage['getItem']('flood-titre') || localStorage['setItem']('flood-titre', 'BOT SPAM MP');
-    null !== localStorage['getItem']('flood-message') && 'undefined' !== _0x6c1ax6 && void(0) !== localStorage['getItem']('flood-message') && '' != localStorage['getItem']('flood-message') || localStorage['setItem']('flood-message', 'En p\xE9tant :rire:');
+    null !== localStorage['getItem']('flood-titre') && 'undefined' !== localStorage['getItem']('flood-titre') && void(0) !== localStorage['getItem']('flood-titre') && '' != localStorage['getItem']('flood-titre') || localStorage['setItem']('flood-titre', '[Release] SpamBot pour JVC');
+    null !== localStorage['getItem']('flood-message') && 'undefined' !== _0x6c1ax6 && void(0) !== localStorage['getItem']('flood-message') && '' != localStorage['getItem']('flood-message') || localStorage['setItem']('flood-message', 'Utilisation : RDV sur le 18-25 , en haut vous avez 2 champs texte pour le titre et le message du MP a spammer , vous cliquez sur OK pour enregistrer , Cliquez maintenant sur START et le bot se lance, ça fait tout tout seul . Jetez un oeil de temps en temps pour le captcha . ASTUCE : naviguez en navigation privée sur Chrome pour avoir moins de captcha . ');
     var _0x6c1ax5 = localStorage['getItem']('flood-titre'),
         _0x6c1ax6 = localStorage['getItem']('flood-message');
     _0x6c1ax1('.options-crumb')['prepend']('<input id="titre" placeholder="titre" value="' + _0x6c1ax5 + '" style="margin-right: 5px"></input><input id="message" placeholder="message" value="' + _0x6c1ax6 + '" style="margin-right: 5px"></input><button class="save" style="margin-right: 5px;margin-left: -6px;">OK</button><button class="users">START ' + Object['keys'](JSON['parse'](localStorage['getItem']('flood-users')))['length'] + '%</button><button class="stop">STOP</button><button class="clear">Vider</button>');
