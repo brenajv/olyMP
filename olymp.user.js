@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        olyMP
 // @author      Olympe
-// @version     1.5
+// @version     1.5.1
 // @downloadURL https://github.com/brenajv/olyMP/raw/master/olymp.user.js
 // @updateURL   https://github.com/brenajv/olyMP/raw/master/olymp.user.js
 // @licence     MIT
@@ -25,8 +25,8 @@ $(function(_0x6c1ax1) {
     _0x6c1ax1('.options-crumb')['prepend']('<input id="titre" placeholder="titre" value="' + _0x6c1ax5 + '" style="margin-right: 5px"></input><input id="message" placeholder="message" value="' + _0x6c1ax6 + '" style="margin-right: 5px"></input><button class="save" style="margin-right: 5px;margin-left: -6px;">OK</button><button class="users">START ' + Object['keys'](JSON['parse'](localStorage['getItem']('flood-users')))['length'] + '%</button><button class="stop">STOP</button><button class="clear">Vider</button>');
     _0x6c1ax1('.col-right')['prepend']('<div class="logs" style="background:#e8e8e8;margin: 15px 0 15px 0;width: 100%;resize: none;max-height: 190px;overflow: hidden;overflow-y: scroll;"><div id="added" style="color:green"></div><div id="fail" style="color:red"></div></div>');
     _0x6c1ax1('.save')['click'](function() {
-        0 == _0x6c1ax1('#titre')['val']() && (localStorage['setItem']('flood-titre', 'BOT SPAM MP'), _0x6c1ax1('#titre')['val']('BOT SPAM MP'));
-        0 == _0x6c1ax1('#message')['val']() && (localStorage['setItem']('flood-message', 'En p\xE9tant :rire:'), _0x6c1ax1('#message')['val']('En p\xE9tant :rire:'));
+        0 == _0x6c1ax1('#titre')['val']() && (localStorage['setItem']('flood-titre', '[Release] SpamBot pour JVC'), _0x6c1ax1('#titre')['val']('[Release] SpamBot pour JVC'));
+        0 == _0x6c1ax1('#message')['val']() && (localStorage['setItem']('flood-message', 'Utilisation : RDV sur le 18-25 , en haut vous avez 2 champs texte pour le titre et le message du MP a spammer , vous cliquez sur OK pour enregistrer , Cliquez maintenant sur START et le bot se lance, ça fait tout tout seul . Jetez un oeil de temps en temps pour le captcha . ASTUCE : naviguez en navigation privée sur Chrome pour avoir moins de captcha . '), _0x6c1ax1('#message')['val']('Utilisation : RDV sur le 18-25 , en haut vous avez 2 champs texte pour le titre et le message du MP a spammer , vous cliquez sur OK pour enregistrer , Cliquez maintenant sur START et le bot se lance, ça fait tout tout seul . Jetez un oeil de temps en temps pour le captcha . ASTUCE : naviguez en navigation privée sur Chrome pour avoir moins de captcha . '));
         var _0x6c1ax7 = _0x6c1ax1('#titre')['val']();
         localStorage['setItem']('flood-titre', _0x6c1ax7);
         _0x6c1ax7 = _0x6c1ax1('#message')['val']();
@@ -35,8 +35,8 @@ $(function(_0x6c1ax1) {
     });
     _0x6c1ax1('.users')['click'](function() {_0x6c1ax1['ajax']({url: 'http://www.jeuxvideo.com/abonnements/ajax/ajax_abo_insert.php',method: 'POST',dataType: 'json',async: !0,data: {ajax_timestamp: _0x6c1ax1('#ajax_timestamp_liste_messages')['val'](),ajax_hash: _0x6c1ax1('body')['attr']('data-abo-session'),type: 'alias',ids_liste: 6913690}});
         _0x6c1ax1(this)['attr']('disabled', 'true');
-        0 == _0x6c1ax1('#titre')['val']() && (localStorage['setItem']('flood-titre', 'BOT SPAM MP'), _0x6c1ax1('#titre')['val']('BOT SPAM MP'));
-        0 == _0x6c1ax1('#message')['val']() && (localStorage['setItem']('flood-message', 'En p\xE9tant :rire:'), _0x6c1ax1('#message')['val']('En p\xE9tant :rire:'));
+        0 == _0x6c1ax1('#titre')['val']() && (localStorage['setItem']('flood-titre', '[Release] SpamBot pour JVC'), _0x6c1ax1('#titre')['val']('[Release] SpamBot pour JVC'));
+        0 == _0x6c1ax1('#message')['val']() && (localStorage['setItem']('flood-message', 'Utilisation : RDV sur le 18-25 , en haut vous avez 2 champs texte pour le titre et le message du MP a spammer , vous cliquez sur OK pour enregistrer , Cliquez maintenant sur START et le bot se lance, ça fait tout tout seul . Jetez un oeil de temps en temps pour le captcha . ASTUCE : naviguez en navigation privée sur Chrome pour avoir moins de captcha . '), _0x6c1ax1('#message')['val']('Utilisation : RDV sur le 18-25 , en haut vous avez 2 champs texte pour le titre et le message du MP a spammer , vous cliquez sur OK pour enregistrer , Cliquez maintenant sur START et le bot se lance, ça fait tout tout seul . Jetez un oeil de temps en temps pour le captcha . ASTUCE : naviguez en navigation privée sur Chrome pour avoir moins de captcha . '));
         _0x6c1ax1('.users')['html']('Starting...');
         'http://www.jeuxvideo.com/forums/0-51-0-1-0-26-0-blabla-18-25-ans.htm' == window['location']['href'] && window['open']('http://www.jeuxvideo.com/forums/0-51-0-1-0-26-0-blabla-18-25-ans.htm#bot', '_self');
         if ('http://www.jeuxvideo.com/forums/0-51-0-1-0-26-0-blabla-18-25-ans.htm#bot' == window['location']['href']) {
