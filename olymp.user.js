@@ -46,7 +46,7 @@ $(function(a) {
                             var d = Object.keys(JSON.parse(localStorage.getItem("spam"))).length;
                             99 === d && window.open("http://www.jeuxvideo.com/messages-prives/nouveau.php#flood", "_self");
                             if (100 > d) {
-                                if (0 < a(b).find("h2.titre").length && "Ce pseudo est banni." === a(b).find("h2.titre")[0].innerHTML || JSON.parse(localStorage.getItem("spam")).includes(c) || JSON.parse(localStorage.getItem("admins")).includes(c) || JSON.parse(localStorage.getItem("abos")).includes(c) || c == m) {
+                                if (0 < a(b).find("h2.titre").length && "Ce pseudo est banni." === a(b).find("h2.titre")[0].innerHTML || JSON.parse(localStorage.getItem("spam")).includes(c) || JSON.parse(localStorage.getItem("admins")).includes(c) || c == m) {
                                     return !1;
                                 }
                                 b = JSON.parse(localStorage.getItem("spam")) || [];
